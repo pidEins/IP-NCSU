@@ -136,7 +136,6 @@ void * serverthread(void * parm)
 
    tot = 0;
    do {
-        printf("Jalandhar too long\n");
 	tot += (n = recv (tsd, message_to_archive+tot, 100-tot, 0));
         if (n < 0) {
            fprintf (stderr, "ERROR reading from socket: %d", n);
