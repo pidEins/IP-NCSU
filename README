@@ -1,0 +1,46 @@
+This readme provides five TCP client/server programs 
+
+1. tcp-client program (tcp-client.c) in c language. 
+
+   To compile, please run this step 
+   a. gcc tcp-client.c -o tcp-client
+
+   Once you compiled the program successfully, you will get the executable. 
+   Run the executable by running 
+   a. ./tcp-client <hostname> <port>
+
+2. tcp-iterative-server program (tcp-iterative-server.c) in c language.
+   
+   To compile, please run this step 
+   a. gcc tcp-iterative-server.c -o tcp-iterative-server
+
+   Once you compiled the program successfully, you will get the executable. 
+   Run the executable by running 
+   a. ./tcp-iterative-server <port>
+
+3. tcp-concurrent-server program (tcp-concurrent-server.c) in c language.
+
+   To compile, please run this step
+   a. gcc tcp-concurrent-server.c -lpthread -o tcp-concurrent-server
+ 
+   Once you compiled the program successfully, you will get the executable. 
+   Run the executable by running 
+   a. ./tcp-concurrent-server
+
+4. tcp-client program (tcp-client.java) in java language. 
+
+   To compile, please run this step
+   a. javac tcp-client.java
+
+   Once you compiled the program successfully, you will get the executable. 
+   Run the executable by running 
+   a. java TCPClient
+
+5. tcp-iterative-server program (tcp-iterative-server.java) in java language. 
+
+   To compile, please run this step
+   a. javac tcp-iterative-server.java
+
+   Once you compiled the program successfully, you will get the executable. 
+   Run the executable by running 
+   a. java TCPServer
